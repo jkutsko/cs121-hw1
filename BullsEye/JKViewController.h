@@ -10,4 +10,6 @@
 
 @interface JKViewController : UIViewController
 
+- (IBAction)showAlert;
+
 @end
