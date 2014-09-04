@@ -10,6 +10,8 @@
 
 @interface JKViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UISlider *slider;
+
 - (IBAction)showAlert;
 
 - (IBAction)sliderMoved:(UISlider *)slider;
