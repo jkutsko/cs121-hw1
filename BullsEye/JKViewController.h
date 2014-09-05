@@ -14,6 +14,10 @@
 
 @property (nonatomic, weak) IBOutlet UILabel *targetLabel;
 
+@property (nonatomic, weak) IBOutlet UILabel *scoreLabel;
+
+@property (nonatomic, weak) IBOutlet UILabel *roundLabel;
+
 - (IBAction)showAlert;
 
 - (IBAction)sliderMoved:(UISlider *)slider;
