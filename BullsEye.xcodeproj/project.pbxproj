@@ -21,6 +21,7 @@
 		AC153CA819B9159900E4C6BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC153C8A19B9159900E4C6BA /* UIKit.framework */; };
 		AC153CB019B9159900E4C6BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC153CAE19B9159900E4C6BA /* InfoPlist.strings */; };
 		AC153CB219B9159900E4C6BA /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC153CB119B9159900E4C6BA /* BullsEyeTests.m */; };
+		ACDB02E019BEBBCC0089C9EB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB02DF19BEBBCC0089C9EB /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AC153CAD19B9159900E4C6BA /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		AC153CAF19B9159900E4C6BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC153CB119B9159900E4C6BA /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		ACDB02DE19BEBBCC0089C9EB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		ACDB02DF19BEBBCC0089C9EB /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				AC153C9519B9159900E4C6BA /* JKAppDelegate.h */,
 				AC153C9619B9159900E4C6BA /* JKAppDelegate.m */,
 				AC153C9819B9159900E4C6BA /* Main.storyboard */,
+				ACDB02DE19BEBBCC0089C9EB /* AboutViewController.h */,
+				ACDB02DF19BEBBCC0089C9EB /* AboutViewController.m */,
 				AC153C9B19B9159900E4C6BA /* JKViewController.h */,
 				AC153C9C19B9159900E4C6BA /* JKViewController.m */,
 				AC153C9E19B9159900E4C6BA /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				AC153C9319B9159900E4C6BA /* main.m in Sources */,
 				AC153C9D19B9159900E4C6BA /* JKViewController.m in Sources */,
+				ACDB02E019BEBBCC0089C9EB /* AboutViewController.m in Sources */,
 				AC153C9719B9159900E4C6BA /* JKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				AC153CB719B9159900E4C6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC153CB819B9159900E4C6BA /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				AC153CBA19B9159900E4C6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
