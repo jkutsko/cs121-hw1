@@ -28,6 +28,12 @@
 	
 }
 
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    [self startNewRound];
+    [self updateLabels];
+}
+
 - (void)startNewRound {
     _round += 1;
     _targetValue = 1 + arc4random_uniform(100);
@@ -73,12 +79,11 @@
     UIAlertView *alertView = [[UIAlertView alloc]
     initWithTitle:title
     message:message
-    delegate:nil
+    delegate:self
     cancelButtonTitle:@"Awesome"
     otherButtonTitles:nil];
     [alertView show];
-    [self startNewRound];
-    [self updateLabels];
+    
 }
 
 - (IBAction)sliderMoved:(UISlider *)slider {

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JKViewController : UIViewController
+@interface JKViewController : UIViewController <UIAlertViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UISlider *slider;
 
