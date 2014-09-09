@@ -56,6 +56,11 @@
 
 }
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 - (IBAction)showAlert {
     
     int difference = abs(_currentValue - _targetValue);
