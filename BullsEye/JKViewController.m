@@ -73,6 +73,14 @@
     return YES;
 }
 
+- (IBAction)startOver {
+    CATransition *transition = [CATransition animation]; transition.type = kCATransitionFade; transition.duration = 1;
+    transition.timingFunction = [CAMediaTimingFunction
+                                 functionWithName:kCAMediaTimingFunctionEaseOut]; [self startNewGame];
+    [self updateLabels];
+    [self.view.layer addAnimation:transition forKey:nil];
+}
+
 - (IBAction)showAlert {
     
     int difference = abs(_currentValue - _targetValue);
@@ -107,10 +115,6 @@
     _currentValue = lroundf(slider.value);
 }
 
-- (IBAction)startOver {
-    [self startNewGame];
-    [self updateLabels];
-}
 
 - (void)startNewGame {
     _score = 0;
